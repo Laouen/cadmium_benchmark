@@ -1,0 +1,16 @@
+SIM1
+vatomics: 1
+vlinks: 2
+vcoupled: 3
+tports: 4
+tatomics: 5
+tlinks: 6
+0.44user 0.01system 2:10.46elapsed 98%CPU (0avgtext+0avgdata 68124maxresident)k
+SIM2
+vatomics: 11
+vlinks: 22
+vcoupled: 33
+tports: 44
+tatomics: 55
+tlinks: 66
+0.44user 0.01system 1:02:10.46elapsed 98%CPU (0avgtext+0avgdata 168124maxresident)k

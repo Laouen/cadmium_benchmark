@@ -1,0 +1,393 @@
+SIMULATION TEST LINKS PUSH: 10000 LINKS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 0
+vatomics: 0
+tports: 0
+vlinks: 10000
+vcoupled: 0
+tlinks: 0
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+1.56user 0.07system 0:01.65elapsed 99%CPU (0avgtext+0avgdata 151632maxresident)k
+0inputs+8280outputs (0major+41251minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST LINKS PUSH: 9500 LINKS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 0
+vatomics: 0
+tports: 0
+vlinks: 9500
+vcoupled: 0
+tlinks: 0
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+1.46user 0.09system 0:01.56elapsed 99%CPU (0avgtext+0avgdata 152332maxresident)k
+0inputs+8280outputs (0major+41393minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST LINKS PUSH: 9000 LINKS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 0
+vatomics: 0
+tports: 0
+vlinks: 9000
+vcoupled: 0
+tlinks: 0
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+1.53user 0.09system 0:01.63elapsed 99%CPU (0avgtext+0avgdata 152124maxresident)k
+0inputs+8280outputs (0major+41358minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST LINKS PUSH: 8500 LINKS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 0
+vatomics: 0
+tports: 0
+vlinks: 8500
+vcoupled: 0
+tlinks: 0
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+1.49user 0.05system 0:01.55elapsed 99%CPU (0avgtext+0avgdata 151960maxresident)k
+0inputs+8280outputs (0major+41299minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST LINKS PUSH: 8000 LINKS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 0
+vatomics: 0
+tports: 0
+vlinks: 8000
+vcoupled: 0
+tlinks: 0
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+1.46user 0.08system 0:01.55elapsed 99%CPU (0avgtext+0avgdata 152152maxresident)k
+0inputs+8280outputs (0major+41325minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST LINKS PUSH: 7500 LINKS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 0
+vatomics: 0
+tports: 0
+vlinks: 7500
+vcoupled: 0
+tlinks: 0
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+1.47user 0.07system 0:01.54elapsed 99%CPU (0avgtext+0avgdata 152248maxresident)k
+0inputs+8280outputs (0major+41385minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST LINKS PUSH: 7000 LINKS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 0
+vatomics: 0
+tports: 0
+vlinks: 7000
+vcoupled: 0
+tlinks: 0
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+1.55user 0.06system 0:01.61elapsed 99%CPU (0avgtext+0avgdata 151192maxresident)k
+0inputs+8280outputs (0major+41143minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST LINKS PUSH: 6500 LINKS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 0
+vatomics: 0
+tports: 0
+vlinks: 6500
+vcoupled: 0
+tlinks: 0
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+1.44user 0.10system 0:01.55elapsed 99%CPU (0avgtext+0avgdata 152396maxresident)k
+0inputs+8280outputs (0major+41425minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST LINKS PUSH: 6000 LINKS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 0
+vatomics: 0
+tports: 0
+vlinks: 6000
+vcoupled: 0
+tlinks: 0
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+1.45user 0.08system 0:01.54elapsed 99%CPU (0avgtext+0avgdata 153088maxresident)k
+0inputs+8280outputs (0major+41081minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST LINKS PUSH: 5500 LINKS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 0
+vatomics: 0
+tports: 0
+vlinks: 5500
+vcoupled: 0
+tlinks: 0
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+1.55user 0.06system 0:01.62elapsed 99%CPU (0avgtext+0avgdata 151576maxresident)k
+0inputs+8280outputs (0major+41209minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST LINKS PUSH: 5000 LINKS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 0
+vatomics: 0
+tports: 0
+vlinks: 5000
+vcoupled: 0
+tlinks: 0
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+1.46user 0.06system 0:01.54elapsed 99%CPU (0avgtext+0avgdata 152584maxresident)k
+0inputs+8280outputs (0major+41485minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST LINKS PUSH: 4500 LINKS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 0
+vatomics: 0
+tports: 0
+vlinks: 4500
+vcoupled: 0
+tlinks: 0
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+1.48user 0.06system 0:01.55elapsed 99%CPU (0avgtext+0avgdata 151056maxresident)k
+0inputs+8280outputs (0major+41097minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST LINKS PUSH: 4000 LINKS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 0
+vatomics: 0
+tports: 0
+vlinks: 4000
+vcoupled: 0
+tlinks: 0
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+1.47user 0.06system 0:01.54elapsed 99%CPU (0avgtext+0avgdata 152668maxresident)k
+0inputs+8280outputs (0major+41466minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST LINKS PUSH: 3500 LINKS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 0
+vatomics: 0
+tports: 0
+vlinks: 3500
+vcoupled: 0
+tlinks: 0
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+1.54user 0.06system 0:01.61elapsed 99%CPU (0avgtext+0avgdata 152360maxresident)k
+0inputs+8280outputs (0major+41445minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST LINKS PUSH: 3000 LINKS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 0
+vatomics: 0
+tports: 0
+vlinks: 3000
+vcoupled: 0
+tlinks: 0
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+1.47user 0.06system 0:01.55elapsed 99%CPU (0avgtext+0avgdata 152104maxresident)k
+0inputs+8280outputs (0major+41363minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST LINKS PUSH: 2500 LINKS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 0
+vatomics: 0
+tports: 0
+vlinks: 2500
+vcoupled: 0
+tlinks: 0
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+1.46user 0.08system 0:01.55elapsed 99%CPU (0avgtext+0avgdata 151280maxresident)k
+0inputs+8280outputs (0major+41168minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST LINKS PUSH: 2000 LINKS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 0
+vatomics: 0
+tports: 0
+vlinks: 2000
+vcoupled: 0
+tlinks: 0
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+1.44user 0.09system 0:01.54elapsed 99%CPU (0avgtext+0avgdata 152328maxresident)k
+0inputs+8280outputs (0major+41416minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST LINKS PUSH: 1500 LINKS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 0
+vatomics: 0
+tports: 0
+vlinks: 1500
+vcoupled: 0
+tlinks: 0
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+1.47user 0.07system 0:01.55elapsed 99%CPU (0avgtext+0avgdata 151796maxresident)k
+0inputs+8280outputs (0major+41270minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST LINKS PUSH: 1000 LINKS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 0
+vatomics: 0
+tports: 0
+vlinks: 1000
+vcoupled: 0
+tlinks: 0
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+1.44user 0.08system 0:01.54elapsed 99%CPU (0avgtext+0avgdata 151188maxresident)k
+0inputs+8280outputs (0major+41106minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST LINKS PUSH: 500 LINKS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 0
+vatomics: 0
+tports: 0
+vlinks: 500
+vcoupled: 0
+tlinks: 0
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+1.48user 0.06system 0:01.56elapsed 99%CPU (0avgtext+0avgdata 152408maxresident)k
+0inputs+8280outputs (0major+41447minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST LINKS PUSH: 0 LINKS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 0
+vatomics: 0
+tports: 0
+vlinks: 0
+vcoupled: 0
+tlinks: 0
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+1.44user 0.08system 0:01.53elapsed 99%CPU (0avgtext+0avgdata 151612maxresident)k
+0inputs+8280outputs (0major+41264minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST LINKS EXPLICIT: 10000 LINKS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 0
+vatomics: 0
+tports: 0
+vlinks: 10000
+vcoupled: 0
+tlinks: 0
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+3461.33user 1.01system 57:42.51elapsed 99%CPU (0avgtext+0avgdata 1674800maxresident)k
+8inputs+58848outputs (0major+420030minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST LINKS EXPLICIT: 9500 LINKS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 0
+vatomics: 0
+tports: 0
+vlinks: 9500
+vcoupled: 0
+tlinks: 0
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+Command terminated by signal 2
+0.00user 0.00system 1:15.06elapsed 0%CPU (0avgtext+0avgdata 2660maxresident)k
+0inputs+0outputs (0major+108minor)pagefaults 0swaps
+makefile:17: recipe for target 'build/main.o' failed
+make: *** [build/main.o] Error 130

@@ -1,0 +1,357 @@
+SIMULATION TEST ATOMIC TYPES WITH: 1 DIFFERENT ATOMIC TYPES
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 1
+vatomics: 1002
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+3.10user 0.15system 0:03.26elapsed 99%CPU (0avgtext+0avgdata 290460maxresident)k
+0inputs+22232outputs (0major+86384minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST ATOMIC TYPES WITH: 51 DIFFERENT ATOMIC TYPES
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 51
+vatomics: 1002
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+7.08user 0.26system 0:07.38elapsed 99%CPU (0avgtext+0avgdata 459464maxresident)k
+8inputs+58400outputs (0major+153365minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST ATOMIC TYPES WITH: 101 DIFFERENT ATOMIC TYPES
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 101
+vatomics: 1002
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+10.87user 0.43system 0:11.31elapsed 99%CPU (0avgtext+0avgdata 608472maxresident)k
+0inputs+94696outputs (0major+218851minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST ATOMIC TYPES WITH: 151 DIFFERENT ATOMIC TYPES
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 151
+vatomics: 1002
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+15.03user 0.56system 0:15.61elapsed 99%CPU (0avgtext+0avgdata 726200maxresident)k
+0inputs+131232outputs (0major+276565minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST ATOMIC TYPES WITH: 201 DIFFERENT ATOMIC TYPES
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 201
+vatomics: 1002
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+18.91user 0.66system 0:19.58elapsed 99%CPU (0avgtext+0avgdata 978872maxresident)k
+0inputs+167744outputs (0major+362987minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST ATOMIC TYPES WITH: 251 DIFFERENT ATOMIC TYPES
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 251
+vatomics: 1002
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+23.47user 0.84system 0:25.30elapsed 96%CPU (0avgtext+0avgdata 1190852maxresident)k
+8inputs+204224outputs (0major+447922minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST ATOMIC TYPES WITH: 301 DIFFERENT ATOMIC TYPES
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 301
+vatomics: 1002
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+27.06user 1.02system 0:29.25elapsed 95%CPU (0avgtext+0avgdata 1298204maxresident)k
+8inputs+241448outputs (0major+500215minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST ATOMIC TYPES WITH: 351 DIFFERENT ATOMIC TYPES
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 351
+vatomics: 1002
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+31.54user 1.06system 0:34.02elapsed 95%CPU (0avgtext+0avgdata 1531148maxresident)k
+8inputs+278048outputs (0major+579880minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST ATOMIC TYPES WITH: 401 DIFFERENT ATOMIC TYPES
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 401
+vatomics: 1002
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+35.00user 1.17system 0:37.38elapsed 96%CPU (0avgtext+0avgdata 1749212maxresident)k
+16inputs+314672outputs (0major+660676minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST ATOMIC TYPES WITH: 451 DIFFERENT ATOMIC TYPES
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 451
+vatomics: 1002
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+38.76user 1.32system 0:41.40elapsed 96%CPU (0avgtext+0avgdata 1968124maxresident)k
+8inputs+351328outputs (0major+748854minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST ATOMIC TYPES WITH: 501 DIFFERENT ATOMIC TYPES
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 501
+vatomics: 1002
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+43.96user 1.35system 0:46.94elapsed 96%CPU (0avgtext+0avgdata 1985640maxresident)k
+16inputs+388008outputs (0major+775299minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST ATOMIC TYPES WITH: 551 DIFFERENT ATOMIC TYPES
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 551
+vatomics: 1002
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+47.86user 1.75system 0:51.35elapsed 96%CPU (0avgtext+0avgdata 2241784maxresident)k
+40inputs+424752outputs (0major+865039minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST ATOMIC TYPES WITH: 601 DIFFERENT ATOMIC TYPES
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 601
+vatomics: 1002
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+53.17user 1.89system 0:57.04elapsed 96%CPU (0avgtext+0avgdata 2481236maxresident)k
+40inputs+461432outputs (0major+950902minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST ATOMIC TYPES WITH: 651 DIFFERENT ATOMIC TYPES
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 651
+vatomics: 1002
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+55.96user 1.76system 0:59.24elapsed 97%CPU (0avgtext+0avgdata 2663044maxresident)k
+24inputs+498144outputs (0major+1010331minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST ATOMIC TYPES WITH: 701 DIFFERENT ATOMIC TYPES
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 701
+vatomics: 1002
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+59.96user 2.02system 1:03.27elapsed 97%CPU (0avgtext+0avgdata 2876788maxresident)k
+16inputs+534824outputs (0major+1088115minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST ATOMIC TYPES WITH: 751 DIFFERENT ATOMIC TYPES
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 751
+vatomics: 1002
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+64.80user 2.15system 1:09.20elapsed 96%CPU (0avgtext+0avgdata 3096100maxresident)k
+16inputs+571536outputs (0major+1181480minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST ATOMIC TYPES WITH: 801 DIFFERENT ATOMIC TYPES
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 801
+vatomics: 1002
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+71.65user 2.30system 1:16.22elapsed 97%CPU (0avgtext+0avgdata 3290440maxresident)k
+16inputs+608368outputs (0major+1258296minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST ATOMIC TYPES WITH: 851 DIFFERENT ATOMIC TYPES
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 851
+vatomics: 1002
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+74.14user 2.36system 1:18.63elapsed 97%CPU (0avgtext+0avgdata 3333748maxresident)k
+16inputs+645240outputs (0major+1292646minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST ATOMIC TYPES WITH: 901 DIFFERENT ATOMIC TYPES
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 901
+vatomics: 1002
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+78.58user 2.26system 1:23.34elapsed 97%CPU (0avgtext+0avgdata 3298356maxresident)k
+24inputs+682032outputs (0major+1301854minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST ATOMIC TYPES WITH: 951 DIFFERENT ATOMIC TYPES
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 951
+vatomics: 1002
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+82.29user 2.63system 1:28.14elapsed 96%CPU (0avgtext+0avgdata 3659720maxresident)k
+40inputs+718816outputs (0major+1421225minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST ATOMIC TYPES WITH: 1001 DIFFERENT ATOMIC TYPES
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 1001
+vatomics: 1002
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -I ../cadmium/include main.cpp -o build/main.o
+88.15user 2.83system 1:32.82elapsed 98%CPU (0avgtext+0avgdata 3977112maxresident)k
+16inputs+755608outputs (0major+1523380minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
