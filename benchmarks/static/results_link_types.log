@@ -1,0 +1,340 @@
+SIMULATION TEST LINK TYPES: 1
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 1
+vatomics: 11
+tports: 20
+vlinks: 10
+vcoupled: 0
+tlinks: 1
+Traceback (most recent call last):
+  File "generate_model.py", line 77, in <module>
+    main(FLAGS)
+  File "generate_model.py", line 49, in main
+    assert( links <= (atomics / 2) and "la cantidad de links debe ser menor o igual a la mitar de la cantidad de atomicos")
+AssertionError
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -ftemplate-depth=90000 -I ../../cadmium/include main.cpp -o build/main.o
+In file included from empty_atomic.hpp:7:0,
+                 from main.cpp:1:
+ports.hpp:1:0: error: unterminated #ifndef
+ #ifndef PORTS_TEST_CPP
+ 
+In file included from main.cpp:2:0:
+ports.hpp:1:0: error: unterminated #ifndef
+ #ifndef PORTS_TEST_CPP
+ 
+Command exited with non-zero status 1
+0.43user 0.01system 0:00.45elapsed 99%CPU (0avgtext+0avgdata 79724maxresident)k
+0inputs+8outputs (0major+17122minor)pagefaults 0swaps
+makefile:17: recipe for target 'build/main.o' failed
+make: *** [build/main.o] Error 1
+SIMULATION TEST LINK TYPES: 2
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 1
+vatomics: 11
+tports: 20
+vlinks: 10
+vcoupled: 0
+tlinks: 2
+Traceback (most recent call last):
+  File "generate_model.py", line 77, in <module>
+    main(FLAGS)
+  File "generate_model.py", line 49, in main
+    assert( links <= (atomics / 2) and "la cantidad de links debe ser menor o igual a la mitar de la cantidad de atomicos")
+AssertionError
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -ftemplate-depth=90000 -I ../../cadmium/include main.cpp -o build/main.o
+In file included from empty_atomic.hpp:7:0,
+                 from main.cpp:1:
+ports.hpp:1:0: error: unterminated #ifndef
+ #ifndef PORTS_TEST_CPP
+ 
+In file included from main.cpp:2:0:
+ports.hpp:1:0: error: unterminated #ifndef
+ #ifndef PORTS_TEST_CPP
+ 
+Command exited with non-zero status 1
+0.42user 0.03system 0:00.46elapsed 99%CPU (0avgtext+0avgdata 79580maxresident)k
+0inputs+8outputs (0major+17134minor)pagefaults 0swaps
+makefile:17: recipe for target 'build/main.o' failed
+make: *** [build/main.o] Error 1
+SIMULATION TEST LINK TYPES: 3
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 1
+vatomics: 11
+tports: 20
+vlinks: 10
+vcoupled: 0
+tlinks: 3
+Traceback (most recent call last):
+  File "generate_model.py", line 77, in <module>
+    main(FLAGS)
+  File "generate_model.py", line 49, in main
+    assert( links <= (atomics / 2) and "la cantidad de links debe ser menor o igual a la mitar de la cantidad de atomicos")
+AssertionError
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -ftemplate-depth=90000 -I ../../cadmium/include main.cpp -o build/main.o
+In file included from empty_atomic.hpp:7:0,
+                 from main.cpp:1:
+ports.hpp:1:0: error: unterminated #ifndef
+ #ifndef PORTS_TEST_CPP
+ 
+In file included from main.cpp:2:0:
+ports.hpp:1:0: error: unterminated #ifndef
+ #ifndef PORTS_TEST_CPP
+ 
+Command exited with non-zero status 1
+0.43user 0.02system 0:00.46elapsed 99%CPU (0avgtext+0avgdata 79648maxresident)k
+0inputs+8outputs (0major+17108minor)pagefaults 0swaps
+makefile:17: recipe for target 'build/main.o' failed
+make: *** [build/main.o] Error 1
+SIMULATION TEST LINK TYPES: 4
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 1
+vatomics: 11
+tports: 20
+vlinks: 10
+vcoupled: 0
+tlinks: 4
+Traceback (most recent call last):
+  File "generate_model.py", line 77, in <module>
+    main(FLAGS)
+  File "generate_model.py", line 49, in main
+    assert( links <= (atomics / 2) and "la cantidad de links debe ser menor o igual a la mitar de la cantidad de atomicos")
+AssertionError
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -ftemplate-depth=90000 -I ../../cadmium/include main.cpp -o build/main.o
+In file included from empty_atomic.hpp:7:0,
+                 from main.cpp:1:
+ports.hpp:1:0: error: unterminated #ifndef
+ #ifndef PORTS_TEST_CPP
+ 
+In file included from main.cpp:2:0:
+ports.hpp:1:0: error: unterminated #ifndef
+ #ifndef PORTS_TEST_CPP
+ 
+Command exited with non-zero status 1
+0.44user 0.01system 0:00.46elapsed 99%CPU (0avgtext+0avgdata 79684maxresident)k
+0inputs+16outputs (0major+17126minor)pagefaults 0swaps
+makefile:17: recipe for target 'build/main.o' failed
+make: *** [build/main.o] Error 1
+SIMULATION TEST LINK TYPES: 5
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 1
+vatomics: 11
+tports: 20
+vlinks: 10
+vcoupled: 0
+tlinks: 5
+Traceback (most recent call last):
+  File "generate_model.py", line 77, in <module>
+    main(FLAGS)
+  File "generate_model.py", line 49, in main
+    assert( links <= (atomics / 2) and "la cantidad de links debe ser menor o igual a la mitar de la cantidad de atomicos")
+AssertionError
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -ftemplate-depth=90000 -I ../../cadmium/include main.cpp -o build/main.o
+In file included from empty_atomic.hpp:7:0,
+                 from main.cpp:1:
+ports.hpp:1:0: error: unterminated #ifndef
+ #ifndef PORTS_TEST_CPP
+ 
+In file included from main.cpp:2:0:
+ports.hpp:1:0: error: unterminated #ifndef
+ #ifndef PORTS_TEST_CPP
+ 
+Command exited with non-zero status 1
+0.44user 0.03system 0:00.47elapsed 99%CPU (0avgtext+0avgdata 79468maxresident)k
+0inputs+8outputs (0major+17120minor)pagefaults 0swaps
+makefile:17: recipe for target 'build/main.o' failed
+make: *** [build/main.o] Error 1
+SIMULATION TEST LINK TYPES: 6
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 1
+vatomics: 11
+tports: 20
+vlinks: 10
+vcoupled: 0
+tlinks: 6
+Traceback (most recent call last):
+  File "generate_model.py", line 77, in <module>
+    main(FLAGS)
+  File "generate_model.py", line 49, in main
+    assert( links <= (atomics / 2) and "la cantidad de links debe ser menor o igual a la mitar de la cantidad de atomicos")
+AssertionError
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -ftemplate-depth=90000 -I ../../cadmium/include main.cpp -o build/main.o
+In file included from empty_atomic.hpp:7:0,
+                 from main.cpp:1:
+ports.hpp:1:0: error: unterminated #ifndef
+ #ifndef PORTS_TEST_CPP
+ 
+In file included from main.cpp:2:0:
+ports.hpp:1:0: error: unterminated #ifndef
+ #ifndef PORTS_TEST_CPP
+ 
+Command exited with non-zero status 1
+0.41user 0.03system 0:00.46elapsed 99%CPU (0avgtext+0avgdata 79632maxresident)k
+0inputs+8outputs (0major+17118minor)pagefaults 0swaps
+makefile:17: recipe for target 'build/main.o' failed
+make: *** [build/main.o] Error 1
+SIMULATION TEST LINK TYPES: 7
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 1
+vatomics: 11
+tports: 20
+vlinks: 10
+vcoupled: 0
+tlinks: 7
+Traceback (most recent call last):
+  File "generate_model.py", line 77, in <module>
+    main(FLAGS)
+  File "generate_model.py", line 49, in main
+    assert( links <= (atomics / 2) and "la cantidad de links debe ser menor o igual a la mitar de la cantidad de atomicos")
+AssertionError
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -ftemplate-depth=90000 -I ../../cadmium/include main.cpp -o build/main.o
+In file included from empty_atomic.hpp:7:0,
+                 from main.cpp:1:
+ports.hpp:1:0: error: unterminated #ifndef
+ #ifndef PORTS_TEST_CPP
+ 
+In file included from main.cpp:2:0:
+ports.hpp:1:0: error: unterminated #ifndef
+ #ifndef PORTS_TEST_CPP
+ 
+Command exited with non-zero status 1
+0.42user 0.03system 0:00.46elapsed 99%CPU (0avgtext+0avgdata 79564maxresident)k
+0inputs+8outputs (0major+17114minor)pagefaults 0swaps
+makefile:17: recipe for target 'build/main.o' failed
+make: *** [build/main.o] Error 1
+SIMULATION TEST LINK TYPES: 8
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 1
+vatomics: 11
+tports: 20
+vlinks: 10
+vcoupled: 0
+tlinks: 8
+Traceback (most recent call last):
+  File "generate_model.py", line 77, in <module>
+    main(FLAGS)
+  File "generate_model.py", line 49, in main
+    assert( links <= (atomics / 2) and "la cantidad de links debe ser menor o igual a la mitar de la cantidad de atomicos")
+AssertionError
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -ftemplate-depth=90000 -I ../../cadmium/include main.cpp -o build/main.o
+In file included from empty_atomic.hpp:7:0,
+                 from main.cpp:1:
+ports.hpp:1:0: error: unterminated #ifndef
+ #ifndef PORTS_TEST_CPP
+ 
+In file included from main.cpp:2:0:
+ports.hpp:1:0: error: unterminated #ifndef
+ #ifndef PORTS_TEST_CPP
+ 
+Command exited with non-zero status 1
+0.40user 0.05system 0:00.45elapsed 99%CPU (0avgtext+0avgdata 79652maxresident)k
+0inputs+8outputs (0major+17116minor)pagefaults 0swaps
+makefile:17: recipe for target 'build/main.o' failed
+make: *** [build/main.o] Error 1
+SIMULATION TEST LINK TYPES: 9
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 1
+vatomics: 11
+tports: 20
+vlinks: 10
+vcoupled: 0
+tlinks: 9
+Traceback (most recent call last):
+  File "generate_model.py", line 77, in <module>
+    main(FLAGS)
+  File "generate_model.py", line 49, in main
+    assert( links <= (atomics / 2) and "la cantidad de links debe ser menor o igual a la mitar de la cantidad de atomicos")
+AssertionError
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -ftemplate-depth=90000 -I ../../cadmium/include main.cpp -o build/main.o
+In file included from empty_atomic.hpp:7:0,
+                 from main.cpp:1:
+ports.hpp:1:0: error: unterminated #ifndef
+ #ifndef PORTS_TEST_CPP
+ 
+In file included from main.cpp:2:0:
+ports.hpp:1:0: error: unterminated #ifndef
+ #ifndef PORTS_TEST_CPP
+ 
+Command exited with non-zero status 1
+0.42user 0.03system 0:00.46elapsed 99%CPU (0avgtext+0avgdata 79652maxresident)k
+0inputs+8outputs (0major+17119minor)pagefaults 0swaps
+makefile:17: recipe for target 'build/main.o' failed
+make: *** [build/main.o] Error 1
+SIMULATION TEST LINK TYPES: 10
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 1
+vatomics: 11
+tports: 20
+vlinks: 10
+vcoupled: 0
+tlinks: 10
+Traceback (most recent call last):
+  File "generate_model.py", line 77, in <module>
+    main(FLAGS)
+  File "generate_model.py", line 49, in main
+    assert( links <= (atomics / 2) and "la cantidad de links debe ser menor o igual a la mitar de la cantidad de atomicos")
+AssertionError
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -ftemplate-depth=90000 -I ../../cadmium/include main.cpp -o build/main.o
+In file included from empty_atomic.hpp:7:0,
+                 from main.cpp:1:
+ports.hpp:1:0: error: unterminated #ifndef
+ #ifndef PORTS_TEST_CPP
+ 
+In file included from main.cpp:2:0:
+ports.hpp:1:0: error: unterminated #ifndef
+ #ifndef PORTS_TEST_CPP
+ 
+Command exited with non-zero status 1
+0.42user 0.02system 0:00.45elapsed 99%CPU (0avgtext+0avgdata 79684maxresident)k
+0inputs+8outputs (0major+17117minor)pagefaults 0swaps
+makefile:17: recipe for target 'build/main.o' failed
+make: *** [build/main.o] Error 1

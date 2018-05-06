@@ -1,0 +1,9 @@
+cantidad de variables:
+ * links ( 51 atomicos 1 a 50 - dos tipos de puertos (1 in, 1 out) conectar de a 1 )
+ * atomicos ( de 1 a 50 atomicos saltos de a 1 )
+ * couples  ( idem atomicos ) [NO ANDUVO]
+ 
+cantidad de tipos:
+ * atomicos ( de 1 a 1000 con saltos de 50 ) [NO TIENE SENTIDO EN CADMIUM ESTATICO CADA ATOMICO TIENE SU PROPIO TIPO]
+ * puertos ( 1 solo modelo atomico y le ponemos puertos de 1 a 150 ) [IS THE SAME THAN THE AMIC MODEL]
+ * links ( 51 atomcos con 50 puertos cada uno, 1 a 50 solo conectando pares todos con el mismo tipo de links, depues a un par le cambiamos el tipo, luego a otro par le cambiamos el tipo, y así  ) 

@@ -1,5 +1,5 @@
 CC=g++
-CFLAGS=-std=c++17
+CFLAGS=-std=c++17 -ftemplate-depth=90000
 
 INCLUDECADMIUM=-I ../../cadmium/include
 

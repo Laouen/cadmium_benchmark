@@ -1,0 +1,66 @@
+Compiling model test_750_100_010.xml
+[Parser] Start parsing reactions.
+[Parser] End parsing reactions.
+mkdir -p bin
+mkdir -p build
+time g++ -g -c  -std=c++17 -ftemplate-depth=900000 -I ../cadmium/include -I include src/structures/types.cpp -o build/types.o
+time g++ -g -c  -std=c++17 -ftemplate-depth=900000 -I ../cadmium/include -I include src/structures/space.cpp -o build/space.o
+time g++ -g -c  -std=c++17 -ftemplate-depth=900000 -I ../cadmium/include -I vendor/DESTimes/include -I vendor/DEVSDiagrammer/model_json_exporter/include -I vendor/tinyxml2 -I vendor/MeMoRe/include -I include main.cpp -o build/main.o
+time g++ -g build/main.o build/types.o build/space.o vendor/tinyxml2/tinyxml2.o -o bin/model
+rm top.hpp top_ports.hpp parameters.xml
+rm -rf bin/ build/ *.o *~
+Compiling model test_1000_100_010.xml
+[Parser] Start parsing reactions.
+[Parser] End parsing reactions.
+mkdir -p bin
+mkdir -p build
+time g++ -g -c  -std=c++17 -ftemplate-depth=900000 -I ../cadmium/include -I include src/structures/types.cpp -o build/types.o
+time g++ -g -c  -std=c++17 -ftemplate-depth=900000 -I ../cadmium/include -I include src/structures/space.cpp -o build/space.o
+time g++ -g -c  -std=c++17 -ftemplate-depth=900000 -I ../cadmium/include -I vendor/DESTimes/include -I vendor/DEVSDiagrammer/model_json_exporter/include -I vendor/tinyxml2 -I vendor/MeMoRe/include -I include main.cpp -o build/main.o
+time g++ -g build/main.o build/types.o build/space.o vendor/tinyxml2/tinyxml2.o -o bin/model
+rm top.hpp top_ports.hpp parameters.xml
+rm -rf bin/ build/ *.o *~
+Compiling model test_1250_100_010.xml
+[Parser] Start parsing reactions.
+[Parser] End parsing reactions.
+mkdir -p bin
+mkdir -p build
+time g++ -g -c  -std=c++17 -ftemplate-depth=900000 -I ../cadmium/include -I include src/structures/types.cpp -o build/types.o
+time g++ -g -c  -std=c++17 -ftemplate-depth=900000 -I ../cadmium/include -I include src/structures/space.cpp -o build/space.o
+time g++ -g -c  -std=c++17 -ftemplate-depth=900000 -I ../cadmium/include -I vendor/DESTimes/include -I vendor/DEVSDiagrammer/model_json_exporter/include -I vendor/tinyxml2 -I vendor/MeMoRe/include -I include main.cpp -o build/main.o
+time g++ -g build/main.o build/types.o build/space.o vendor/tinyxml2/tinyxml2.o -o bin/model
+rm top.hpp top_ports.hpp parameters.xml
+rm -rf bin/ build/ *.o *~
+Compiling model test_1500_100_010.xml
+[Parser] Start parsing reactions.
+[Parser] End parsing reactions.
+mkdir -p bin
+mkdir -p build
+time g++ -g -c  -std=c++17 -ftemplate-depth=900000 -I ../cadmium/include -I include src/structures/types.cpp -o build/types.o
+time g++ -g -c  -std=c++17 -ftemplate-depth=900000 -I ../cadmium/include -I include src/structures/space.cpp -o build/space.o
+time g++ -g -c  -std=c++17 -ftemplate-depth=900000 -I ../cadmium/include -I vendor/DESTimes/include -I vendor/DEVSDiagrammer/model_json_exporter/include -I vendor/tinyxml2 -I vendor/MeMoRe/include -I include main.cpp -o build/main.o
+time g++ -g build/main.o build/types.o build/space.o vendor/tinyxml2/tinyxml2.o -o bin/model
+rm top.hpp top_ports.hpp parameters.xml
+rm -rf bin/ build/ *.o *~
+Compiling model test_1750_100_010.xml
+[Parser] Start parsing reactions.
+[Parser] End parsing reactions.
+mkdir -p bin
+mkdir -p build
+time g++ -g -c  -std=c++17 -ftemplate-depth=900000 -I ../cadmium/include -I include src/structures/types.cpp -o build/types.o
+time g++ -g -c  -std=c++17 -ftemplate-depth=900000 -I ../cadmium/include -I include src/structures/space.cpp -o build/space.o
+time g++ -g -c  -std=c++17 -ftemplate-depth=900000 -I ../cadmium/include -I vendor/DESTimes/include -I vendor/DEVSDiagrammer/model_json_exporter/include -I vendor/tinyxml2 -I vendor/MeMoRe/include -I include main.cpp -o build/main.o
+time g++ -g build/main.o build/types.o build/space.o vendor/tinyxml2/tinyxml2.o -o bin/model
+rm top.hpp top_ports.hpp parameters.xml
+rm -rf bin/ build/ *.o *~
+Compiling model test_2000_100_010.xml
+[Parser] Start parsing reactions.
+[Parser] End parsing reactions.
+mkdir -p bin
+mkdir -p build
+time g++ -g -c  -std=c++17 -ftemplate-depth=900000 -I ../cadmium/include -I include src/structures/types.cpp -o build/types.o
+time g++ -g -c  -std=c++17 -ftemplate-depth=900000 -I ../cadmium/include -I include src/structures/space.cpp -o build/space.o
+time g++ -g -c  -std=c++17 -ftemplate-depth=900000 -I ../cadmium/include -I vendor/DESTimes/include -I vendor/DEVSDiagrammer/model_json_exporter/include -I vendor/tinyxml2 -I vendor/MeMoRe/include -I include main.cpp -o build/main.o
+time g++ -g build/main.o build/types.o build/space.o vendor/tinyxml2/tinyxml2.o -o bin/model
+rm top.hpp top_ports.hpp parameters.xml
+rm -rf bin/ build/ *.o *~

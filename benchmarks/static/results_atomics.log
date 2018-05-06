@@ -1,0 +1,257 @@
+SIMULATION TEST ATOMICS WITH: 1 ATOMICS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 1
+vatomics: 1
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -ftemplate-depth=90000 -I ../../cadmium/include main.cpp -o build/main.o
+0.76user 0.06system 0:00.83elapsed 99%CPU (0avgtext+0avgdata 114848maxresident)k
+0inputs+4464outputs (0major+30047minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST ATOMICS WITH: 2 ATOMICS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 1
+vatomics: 2
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -ftemplate-depth=90000 -I ../../cadmium/include main.cpp -o build/main.o
+0.83user 0.04system 0:00.88elapsed 99%CPU (0avgtext+0avgdata 121476maxresident)k
+0inputs+5296outputs (0major+31912minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST ATOMICS WITH: 3 ATOMICS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 1
+vatomics: 3
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -ftemplate-depth=90000 -I ../../cadmium/include main.cpp -o build/main.o
+0.87user 0.04system 0:00.92elapsed 99%CPU (0avgtext+0avgdata 124376maxresident)k
+0inputs+6592outputs (0major+32975minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST ATOMICS WITH: 4 ATOMICS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 1
+vatomics: 4
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -ftemplate-depth=90000 -I ../../cadmium/include main.cpp -o build/main.o
+0.91user 0.07system 0:00.98elapsed 100%CPU (0avgtext+0avgdata 133216maxresident)k
+0inputs+8824outputs (0major+35499minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST ATOMICS WITH: 5 ATOMICS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 1
+vatomics: 5
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -ftemplate-depth=90000 -I ../../cadmium/include main.cpp -o build/main.o
+1.03user 0.06system 0:01.10elapsed 99%CPU (0avgtext+0avgdata 145668maxresident)k
+0inputs+12920outputs (0major+38995minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST ATOMICS WITH: 6 ATOMICS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 1
+vatomics: 6
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -ftemplate-depth=90000 -I ../../cadmium/include main.cpp -o build/main.o
+1.25user 0.07system 0:01.33elapsed 99%CPU (0avgtext+0avgdata 167124maxresident)k
+0inputs+20792outputs (0major+45309minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST ATOMICS WITH: 7 ATOMICS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 1
+vatomics: 7
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -ftemplate-depth=90000 -I ../../cadmium/include main.cpp -o build/main.o
+1.62user 0.09system 0:01.71elapsed 99%CPU (0avgtext+0avgdata 207732maxresident)k
+0inputs+36320outputs (0major+57375minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST ATOMICS WITH: 8 ATOMICS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 1
+vatomics: 8
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -ftemplate-depth=90000 -I ../../cadmium/include main.cpp -o build/main.o
+2.32user 0.13system 0:02.46elapsed 99%CPU (0avgtext+0avgdata 252724maxresident)k
+0inputs+67392outputs (0major+71199minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST ATOMICS WITH: 9 ATOMICS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 1
+vatomics: 9
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -ftemplate-depth=90000 -I ../../cadmium/include main.cpp -o build/main.o
+3.64user 0.20system 0:03.85elapsed 100%CPU (0avgtext+0avgdata 338936maxresident)k
+0inputs+130104outputs (0major+109633minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST ATOMICS WITH: 10 ATOMICS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 1
+vatomics: 10
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -ftemplate-depth=90000 -I ../../cadmium/include main.cpp -o build/main.o
+6.06user 0.30system 0:06.36elapsed 100%CPU (0avgtext+0avgdata 557420maxresident)k
+0inputs+257480outputs (0major+177522minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST ATOMICS WITH: 11 ATOMICS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 1
+vatomics: 11
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -ftemplate-depth=90000 -I ../../cadmium/include main.cpp -o build/main.o
+10.96user 0.62system 0:11.97elapsed 96%CPU (0avgtext+0avgdata 1005124maxresident)k
+16inputs+516272outputs (0major+324588minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST ATOMICS WITH: 12 ATOMICS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 1
+vatomics: 12
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -ftemplate-depth=90000 -I ../../cadmium/include main.cpp -o build/main.o
+20.90user 1.11system 0:23.79elapsed 92%CPU (0avgtext+0avgdata 1907476maxresident)k
+16inputs+1042616outputs (0major+623774minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST ATOMICS WITH: 13 ATOMICS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 1
+vatomics: 13
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -ftemplate-depth=90000 -I ../../cadmium/include main.cpp -o build/main.o
+40.76user 2.27system 0:51.26elapsed 83%CPU (0avgtext+0avgdata 3719256maxresident)k
+16inputs+2113544outputs (0major+1226807minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST ATOMICS WITH: 14 ATOMICS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 1
+vatomics: 14
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -ftemplate-depth=90000 -I ../../cadmium/include main.cpp -o build/main.o
+85.53user 30.53system 8:05.82elapsed 23%CPU (0avgtext+0avgdata 7274700maxresident)k
+2336312inputs+4292680outputs (4423major+2429771minor)pagefaults 0swaps
+g++ -o bin/TOPMODEL build/main.o 
+SIMULATION TEST ATOMICS WITH: 15 ATOMICS
+for d in bin;  do (cd $d; rm -f TOPMODEL *~ ); done
+for d in build; do (cd $d; rm -f *.o *~ ); done
+rm main.cpp
+rm ports.hpp
+tatomics: 1
+vatomics: 15
+tports: 2
+vlinks: 0
+vcoupled: 0
+tlinks: 1
+mkdir -p build
+mkdir -p bin
+time g++ -g -c -std=c++17 -ftemplate-depth=90000 -I ../../cadmium/include main.cpp -o build/main.o
+Command terminated by signal 2
+0.00user 0.00system 17:58.45elapsed 0%CPU (0avgtext+0avgdata 764maxresident)k
+640inputs+0outputs (14major+120minor)pagefaults 0swaps
+makefile:17: recipe for target 'build/main.o' failed
+make: *** [build/main.o] Error 130

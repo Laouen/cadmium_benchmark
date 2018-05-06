@@ -1,4 +1,4 @@
-for i in $(seq 0 500 10000); do
+for i in $(seq 1 1 15); do
 	echo "SIMULATION TEST COUPLED WITH: $i COUPLES"
 	make clean
 	make clean_files

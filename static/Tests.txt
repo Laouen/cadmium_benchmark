@@ -1,9 +1,0 @@
-cantidad de variables:
- * links ( 10001 atomicos 1 a 10000 - dos tipos de puertos (1 in, 1 out) conectar de a 500 )
- * atomicos ( de 1 a 10000 atomicos saltos de a 500 )
- * couples  ( idem atomicos )
- 
-cantidad de tipos:
- * atomicos ( de 1 a 1000 con saltos de 50 )
- * puertos ( 1 solo modelo atomico y le ponemos puertos de 1 a 150 )
- * links ( 300 atomcis con 150 puertos cada uno, 1 a 150 solo conectando pares todos con el mismo tipo de links, depues a un par le cambiamos el tipo, luego a otro par le cambiamos el tipo, y así  ) 
