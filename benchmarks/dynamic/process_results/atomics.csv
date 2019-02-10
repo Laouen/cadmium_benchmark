@@ -1,4 +1,4 @@
-procesingtime-s;ram-k;swaps;tatomics;tlinks;tports;vatomics;vcoupled;vlinks
+processing time (seconds);memory KB;swaps;atomic types;link types;port types;atomics amount;coupled amount;links amount
 2;196832;0;1;1;2;0;0;0
 2;260120;0;1;1;2;500;0;0
 3;290244;0;1;1;2;1000;0;0
