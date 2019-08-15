@@ -3,3 +3,6 @@
 */bin/
 */main.cpp
 */port.hpp
+
+# virtualenv
+env
